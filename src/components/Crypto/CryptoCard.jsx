@@ -1,7 +1,7 @@
 
-import '../css/index.css'
+import '../../css/index.css'
 import { useContext } from 'react';
-import AppContext from '../context/AppContext';
+import AppContext from '../../context/AppContext';
 
 const CryptoCard = ({val,id}) => {
     let baseUrl = "https://www.cryptocompare.com";

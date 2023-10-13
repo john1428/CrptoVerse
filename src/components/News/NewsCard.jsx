@@ -1,6 +1,6 @@
 
-import '../css/news.css'
-import AppContext from "../context/AppContext";
+import '../../css/news.css'
+import AppContext from "../../context/AppContext";
 import { useContext } from 'react';
 const NewsCard = ({val}) => {
 

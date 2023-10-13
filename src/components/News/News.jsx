@@ -1,9 +1,9 @@
 import { useEffect, useState, useContext } from "react"
 import axios from "axios";
-import '../css/news.css'
+import '../../css/news.css'
 import NewsCard from "./NewsCard";
-import Loader from "./Loader";
-import AppContext from "../context/AppContext";
+import Loader from "../Loader";
+import AppContext from "../../context/AppContext";
 
 const News = () => {
 

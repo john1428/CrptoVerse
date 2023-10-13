@@ -1,5 +1,5 @@
-import "../css/index.css";
-import AppContext from "../context/AppContext";
+import "../../css/index.css";
+import AppContext from "../../context/AppContext";
 import { useContext } from "react";
 const Pagination = ({ totalPosts, postsperpage, paginate }) => {
   const pageNumbers = ["<"];

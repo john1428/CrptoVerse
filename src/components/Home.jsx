@@ -1,8 +1,8 @@
 import { useContext, useEffect, useState } from "react";
 import "../css/index.css";
 import axios from "axios";
-import Pagination from "./Pagination";
-import CryptoList from "./CryptoList";
+import Pagination from "./Crypto/Pagination";
+import CryptoList from "./Crypto/CryptoList";
 import Header from './Header';
 import AppContext from "../context/AppContext";
 import Loader from "./Loader";

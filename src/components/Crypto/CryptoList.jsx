@@ -1,5 +1,5 @@
 import CryptoCard from './CryptoCard';
-import '../css/index.css'
+import '../../css/index.css'
 const CryptoList = ({cryptos,search,id1}) => {
   return (
     <div>
